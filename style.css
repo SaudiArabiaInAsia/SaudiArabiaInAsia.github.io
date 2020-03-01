@@ -14,6 +14,7 @@ body{
 	height: 60px;
 	background-color: #000;
 	z-index: 10000;
+	min-width: 700px;
 
 }
 #top-menu-left{
@@ -67,6 +68,7 @@ body{
 .box{
 	position: relative;
 	width: 100%;
+	min-width: 700px;
 }
 #ad-box{
 	width: 100%;
@@ -259,15 +261,12 @@ overflow: hidden;
 }
 #box5{
 	background-color: black;
-	height: 1000px;
+	
+	text-align: center;
+	padding-top:100px ;
+	padding-bottom: 100px;
 }
-#box5-cards{
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	width: 1120px;
-}
+
 .box5-card{
 	background: linear-gradient(to right, #fbff00,#09ff00 );
 	display: inline-block;
@@ -444,6 +443,7 @@ table{
 #addition-top-menu{
 	color: #fff;
 	text-align: right;
+	min-width: 700px;
 }
 #addition-top-menu a{
 	color: #fff;
@@ -579,4 +579,10 @@ color: rgb(255, 136, 0);
 }
 #FR{
 	color: fuchsia;
+}
+@media( max-width: 1120px){
+#box6-more{
+	width: 100%;
+}
+
 }
